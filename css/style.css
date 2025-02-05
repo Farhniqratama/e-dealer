@@ -1,0 +1,172 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #454d55;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.no-decor{
+    text-decoration: none;
+    color: black;
+}
+
+.warna1	{
+	background-color: #876445;
+}
+
+.warna2 {
+	background-color: #CA965c;
+}
+
+.warna3 {
+	background-color: #EEC373;
+}
+
+.warna4 {
+	background-color: #F4DFBA;
+}
+
+.banner{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../uploads/bg.jpg);
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt{
+    margin-top: 10rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.text {
+    color: white;
+}
+
+.warna-text {
+    color: rgb(0, 0, 0);
+}
+
+.banner2{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+}
+
+.banner-2{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../uploads/bg2.jpg);
+}
+
+.banner-3{
+	height: 80vh;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../uploads/bg3.jpg);
+}
+
+.pp {
+    padding-block: 20;
+}
